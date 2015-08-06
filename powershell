@@ -1,0 +1,3 @@
+# Copy code from the CQ server via FileVault
+# Replace 'vlt.bat' according to your script location and mind the spaces here!
+vlt.bat --credentials admin:admin export -v http://localhost:4502/crx /apps/training training
