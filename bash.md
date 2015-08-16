@@ -9,9 +9,19 @@ https://wiki.ubuntuusers.de/Grafikkarten/AMD/radeon
 
 http://askubuntu.com/questions/324733/how-to-enable-the-radeon-dynamic-power-management-feature
 
-**Description:**
+**Notes:**
 
 Do this regularly or put into rc.local.
 
 On newer kernels (> 3.11), only makes sense in combinations with a boot
 parameter: `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash radeon.dpm=1"`
+
+
+#### Change keyboard layout via terminal.
+**Code:**
+
+`setxkbmap {de|us}` 
+
+**Notes:**
+
+Might interfere with keyboard switcher of desktop environment (e.g. Cinnamon).
