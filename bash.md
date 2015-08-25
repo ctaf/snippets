@@ -1,3 +1,16 @@
+#### Repeat a command until success.
+
+**Code:**
+
+```
+until !!; do done
+until !!; do sleep 5; done
+``` 
+
+**Sources:**
+
+http://www.commandlinefu.com/commands/view/12327/retry-the-previous-command-until-it-exits-successfully
+
 #### Battery saving mode for graphics. 
 **Code:**
 
